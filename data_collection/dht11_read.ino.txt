@@ -6,9 +6,9 @@
 #define DHTTYPE DHT11
 DHT dht(DHTPIN, DHTTYPE);
 
-const char* WIFI_SSID = "NAMA_WIFI_KAMU";       // Ganti
-const char* WIFI_PASSWORD = "PASSWORD_WIFI";    // Ganti
-const char* UBIDOTS_TOKEN = "TOKEN_MU";         // Ganti
+const char* WIFI_SSID = "Redmi Note 12";       // Ganti
+const char* WIFI_PASSWORD = "";    // Ganti
+const char* UBIDOTS_TOKEN = "BBUS-ezoVCgM2OPJO0woVNXW8t0ovaLvHyD";         // Ganti
 
 #define DEVICE_LABEL "smart-irrigation-bot"
 #define VARIABLE_TEMP "temperature"
